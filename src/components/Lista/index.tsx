@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./style.scss";
 import Item from "./Item";
+import Video all from "../Teste.tsx";
 
 function Lista() {
   const [tarefas, setTarefas] = useState([
@@ -21,6 +22,7 @@ function Lista() {
         ))}
       </ul>
     </aside>
+<Video all />
   );
 }
 
