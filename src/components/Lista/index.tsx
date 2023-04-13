@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "./style.scss";
 import Item from "./Item";
-import VideoCall from "../Teste.tsx";
 
 function Lista() {
   const [tarefas, setTarefas] = useState([
@@ -22,7 +21,7 @@ function Lista() {
         ))}
       </ul>
     </aside>
-<VideoCall />
+    
   );
 }
 
