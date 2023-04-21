@@ -1,10 +1,10 @@
-import React from "react";
+import React, { useId } from "react";
 import Botao from "../Botao";
 import style from "./Formulario.module.scss";
 import ITarefa from "../../types/Tarefa";
+import { v4 as uuidv4 } from "uuid";
 
 class Formulario extends React.Component<{ setTarefas: React.Dispatch<React.SetStateAction<ITarefa[]>> }> {
-
   state = {
     tarefa: "",
     tempo: "00:00",
@@ -13,7 +13,19 @@ class Formulario extends React.Component<{ setTarefas: React.Dispatch<React.SetS
   adicionarTarefa(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault();
     console.log("State: ", this.state);
-    this.props.setTarefas(tarefasAntigas => [...tarefasAntigas, { ...this.state }])
+    this.props.setTarefas((tarefasAntigas) => [
+      ...tarefasAntigas,
+      {
+        ...this.state,
+        selecionado: false,
+        completado: false,
+        id: uuidv4(),
+      },
+    ]);
+    this.setState({
+      tarefa: "",
+      tempo: "00:00",
+    });
   }
 
   render(): React.ReactNode {
@@ -26,10 +38,15 @@ class Formulario extends React.Component<{ setTarefas: React.Dispatch<React.SetS
             id="tarefa"
             name="tarefa"
             value={this.state.tarefa}
-            onChange={(event) => this.setState({
-              ...this.state, tarefa: event.target.value
-            })}
-            placeholder="O que você deseja estudar" required />
+            onChange={(event) =>
+              this.setState({
+                ...this.state,
+                tarefa: event.target.value,
+              })
+            }
+            placeholder="O que você deseja estudar"
+            required
+          />
         </div>
 
         <div className={style.inputContainer}>
