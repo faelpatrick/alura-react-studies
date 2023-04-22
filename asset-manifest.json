@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/alura-react-studies/static/css/main.e6a52747.css",
-    "main.js": "/alura-react-studies/static/js/main.385de813.js",
+    "main.css": "/alura-react-studies/static/css/main.d403b52a.css",
+    "main.js": "/alura-react-studies/static/js/main.5c302843.js",
     "static/media/check-mark.svg": "/alura-react-studies/static/media/check-mark.7804822e479e0f94c4e2.svg",
     "index.html": "/alura-react-studies/index.html",
-    "main.e6a52747.css.map": "/alura-react-studies/static/css/main.e6a52747.css.map",
-    "main.385de813.js.map": "/alura-react-studies/static/js/main.385de813.js.map"
+    "main.d403b52a.css.map": "/alura-react-studies/static/css/main.d403b52a.css.map",
+    "main.5c302843.js.map": "/alura-react-studies/static/js/main.5c302843.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6a52747.css",
-    "static/js/main.385de813.js"
+    "static/css/main.d403b52a.css",
+    "static/js/main.5c302843.js"
   ]
 }
