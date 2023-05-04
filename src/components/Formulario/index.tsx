@@ -55,7 +55,6 @@ function Formulario({setTarefas }: Props){
           value={tempo}
           onChange={(event) => setTempo(event.target.value)}
           min="00:00:00"
-          max="01:30:00"
           required
         />
       </div>
