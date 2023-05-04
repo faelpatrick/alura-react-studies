@@ -11,8 +11,8 @@ Site criado durante aula da Alura.
 | 📁: URL         |https://github.com/faelpatrick/alura-react-studies
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
-![image](https://raw.githubusercontent.com/faelpatrick/alura-react-studies/main/studiesDesktop.jpg)
-![image](https://raw.githubusercontent.com/faelpatrick/alura-react-studies/main/studiesMobile.jpg)
+![image](https://raw.githubusercontent.com/faelpatrick/alura-react-studies/main/studiesDesktop.jpg#vitrinedev)
+![image](https://raw.githubusercontent.com/faelpatrick/alura-react-studies/main/studiesMobile.jpg#vitrinedev)
 
 ## Detalhes do projeto
 Utilizei também habilidades aprendidas no curso de Grid
