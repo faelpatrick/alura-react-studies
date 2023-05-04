@@ -5,7 +5,7 @@ class Botao extends React.Component<{
   type?: "button" | "submit" | "reset" | undefined,
   onClick?: () => void, 
   children: string
-}> {
+}> { 
 
   render() {
 

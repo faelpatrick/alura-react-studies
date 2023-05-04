@@ -10,7 +10,7 @@ export default function Item({ tarefa, tempo, selecionado, completado, id, selec
 
   return (
     <li
-      className={`${style.item} ${selecionado ? style.itemSelecionado : ""}`}
+      className={`${style.item} ${selecionado ? style.itemSelecionado : ""} ${completado ? style.itemCompletado : ''}`}
       onClick={() =>
         selecionaTarefa({
           tarefa,
