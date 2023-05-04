@@ -15,8 +15,7 @@ Site criado durante aula da Alura.
 ![image](https://raw.githubusercontent.com/faelpatrick/alura-react-studies/main/studiesMobile.jpg#vitrinedev)
 
 ## Detalhes do projeto
-Utilizei também habilidades aprendidas no curso de Grid
-Versão Mobile implementada posteriormente
+Utilizei também habilidades aprendidas em outros cursos neste projeto.
 
 
 # Getting Started with Create React App
